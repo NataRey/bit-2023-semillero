@@ -1,4 +1,4 @@
-h1{
+h1, h2{
     text-align: center;
 }
 .contenedor1{
@@ -43,9 +43,7 @@ h1{
     position: relative;
     transform-style: preserve-3d;
     transition: .7s ease;
-    /*-webkit-box-shadow: 0px 10px 15px -15px rgba(0,0,0,0.65)
-    -moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65)
-    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);*/
+    box-shadow: 0px 10px 15px -15px rgba(0,0,0,0.65);
 }
 .adelante, .atras{
     width: 100%;
@@ -53,14 +51,13 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility:hidden;
     backface-visibility: hidden;
 }
 .adelante{
     width: 100%;
 }
 .atras{
-    transform: rotateY(180deg);
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -74,11 +71,16 @@ h1{
 }
 
 .card1{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fsistemas.com%2Fdispositivos.php&psig=AOvVaw1QAXTVJKBsHv4lVbGjjuRK&ust=1692239418979000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJDUu56R4IADFQAAAAAdAAAAABAE);
+    background-image: url(https://st4.depositphotos.com/20363444/39940/i/450/depositphotos_399401022-stock-photo-excited-multicultural-friends-summer-outfit.jpg);
+    
 }
 .card2{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fquees.com.mx%2Fque-es-un-hardware%2F&psig=AOvVaw2ZNq9x7Jq9NfhtmewGrXZT&ust=1692239551870000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMiV692R4IADFQAAAAAdAAAAABAE);
+    background-image: url(https://img.freepik.com/foto-gratis/ingeniero-colocando-modulo-memoria-ram-placa-base_23-2147883606.jpg?size=626&ext=jpg&uid=R45865945&ga=GA1.2.1237106512.1692210915&semt=sph);
+  
 }
 .card3{
-    background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.h2i2t.com%2Fwp-content%2Fuploads%2F2022%2F02%2Fcomo-funciona-el-kernel-software-1024x576.jpg&tbnid=zmvXozbs7BHCNM&vet=12ahUKEwip26z9keCAAxWhhLAFHQH6AuwQMygDegQIARB7..i&imgrefurl=https%3A%2F%2Fwww.h2i2t.com%2Fque-es-software%2F&docid=oCYEVgJOaZ7OoM&w=1024&h=576&q=Qu%C3%A9%20es%20software%3F&ved=2ahUKEwip26z9keCAAxWhhLAFHQH6AuwQMygDegQIARB7);
+    background-image: url(https://desarrollodesoftware.dev/wp-content/webp-express/webp-images/uploads/2022/02/desarrollo-de-software1-700x394.jpg.webp);
 }
+.card4{
+    background-image: url(https://img.freepik.com/foto-gratis/collage-fondo-programacion_23-2149901765.jpg?size=626&ext=jpg&uid=R45865945&ga=GA1.2.1237106512.1692210915&semt=ais);
+}    
