@@ -47,8 +47,8 @@ h1, h2, h3{
 }
 
 .tarjeta{
-	width: 300px;
-	height: 300px;
+	width: 340px;
+	height: 310px;
 	background: var(--color-primario);
 	position: relative;
 	-webkit-transform-style: preserve-3d;
