@@ -1,12 +1,13 @@
+:root{
+    --color-primario: rgb(27, 133, 59);
+    --color-secundario: gray;
+}
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-:root{
-    --color-primario: rgb(204, 166, 41);
-    --color-secundario: gray;
-}
+
 
 h1, h2, h3{
     text-align: center;
