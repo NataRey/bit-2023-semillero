@@ -102,7 +102,25 @@ h1, h2, h3{
 	transform: rotateY(180deg);
 }
 
+/* Estilos generales para pantallas más grandes que 1024px */
+.contenedor-principal {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+/* Estilos para pantallas más grandes que 720px y menores o iguales a 1024px */
+@media screen and (max-width: 720px) {
+    .tarjeta-wrap {
+        width: 50%; /* Mostrar dos tarjetas por fila en pantallas medianas */
+    }
+}
+
+/* Estilos para pantallas de 360px o más pequeñas */
+@media screen and (max-width: 360px) {
+    .tarjeta-wrap {
+        width: 100%; /* Mostrar una tarjeta por fila en pantallas pequeñas */
+    }
+}
 .card1{
 	background-image: url(https://st4.depositphotos.com/20363444/39940/i/450/depositphotos_399401022-stock-photo-excited-multicultural-friends-summer-outfit.jpg);
 	background-size: 100% 100%;
