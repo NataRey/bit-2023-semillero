@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const anteriorBtn = document.querySelector(".anterior");
 
     let paginaActual = 0;
-    const tarjetasPorPagina = 6;
+    const tarjetasPorPagina = 1;
 
     function mostrarPagina(pagina) {
         tarjetas.forEach((tarjeta, index) => {
