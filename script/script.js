@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const tarjetas = document.querySelectorAll(".tarjeta-wrap");
+    const tarjetas = document.querySelectorAll(".wrap");
     const siguienteBtn = document.querySelector(".siguiente");
     const anteriorBtn = document.querySelector(".anterior");
 
